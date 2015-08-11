@@ -12,4 +12,5 @@ address varchar(255),
 city varchar(255)
 );
 
-insert into sample.people (last_name, first_name, address, city) values ('hocker', 'harrison', '705 N Gayoso', 'New Orleans');
+insert into sample.people (first_name, last_name, address, city) values ('harrison', 'h', '705 N Gayoso', 'New Orleans');
+insert into sample.people (first_name, last_name, address, city) values ('gabby', 't', '705 N Gayoso', 'New Orleans');
